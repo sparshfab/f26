@@ -1,5 +1,61 @@
 <!DOCTYPE html>
-<html>
-<head><title>Fab Academy 2026</title></head>
-<body><h1>Welcome to my Fab Academy Site</h1></body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fab Academy - Sparsh Kumar</title>
+    <style>
+        body { 
+            font-family: sans-serif; 
+            line-height: 1.6; 
+            margin: 0; 
+            padding: 0;
+            
+            /* Background Image Setup */
+            background-image: url('background.jpg'); /* Ensure this file is in your root folder */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            
+            /* Flexbox to center the content box */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        main {
+            background: rgba(255, 255, 255, 0.9); /* White overlay with 90% opacity */
+            max-width: 800px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        nav ul { list-style: none; padding: 0; }
+        nav li { margin-bottom: 10px; }
+        
+        /* Making links look a bit cleaner */
+        a { color: #007bff; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Fab Academy 2026</h1>
+        <p>Welcome to my ever evolving project documentation site.</p>
+        
+        <nav>
+            <h2>Assignments</h2>
+            <ul>
+                <li><a href="subpages/week01/week01.html">Week 1: Principles and Practices</a></li>
+                <li><a href="subpages/week02/week02.html">Week 2: Project Management</a></li>
+                <li><a href="subpages/week03/week03.html">Week 3: Computer-Aided Design</a></li>
+                <li><a href="subpages/week04/week04.html">Week 4: Computer-Controlled Cutting</a></li>
+            </ul>
+        </nav>
+    </main>
+
+</body>
 </html>
